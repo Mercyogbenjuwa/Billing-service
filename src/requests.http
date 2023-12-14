@@ -1,0 +1,17 @@
+//********To check the functionality, click on "Send Request" which works similarly to Postman**************//
+
+
+###************************************************ Create Billing Record**************************************##
+POST http://localhost:3000/billing
+content-type: application/json
+
+{
+  "apiCalls": 20000
+}
+
+
+###********************************************* Get Billing Reecords *************************************************##
+GET http://localhost:3000/billing
+content-type: application/json
+
+
